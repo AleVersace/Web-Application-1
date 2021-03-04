@@ -1,3 +1,5 @@
+"use strict" ;
+
 // General scores
 let scores_original = [18, 20, 23, 19, 30, 27, 24, 24, 23, 24, 18];
 let scores = Array.from(scores_original);

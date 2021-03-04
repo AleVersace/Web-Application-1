@@ -7,6 +7,8 @@ Property names are unique in each object and are identified as strings.
 Property values are types, arrays or even functions and objects.
 */
 
+"use strict" ;
+
 let point = {x: 2, y: 5};
 
 let book = {

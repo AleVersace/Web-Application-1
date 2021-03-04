@@ -58,3 +58,28 @@ let list = [1, 2, 3];
 for (let element of list) {
     console.log(element);
 }
+
+
+// Arrays
+console.log("\nArrays");
+let x = ["One", "Two", "Three"];
+let y = ["Uno", "Due", "Tre"];
+let z = x.concat(y);    // Put together the 2 arrays
+z.forEach(e => console.log(e));     // Print the array
+console.log("\n");
+
+let w = z.splice(2, 2, "*");    // Starting from 2-position remove next 2 objects and place "*"
+z.forEach(e => console.log(e));
+console.log("\n");
+w.forEach(e => console.log(e));
+console.log("\n");
+
+[x, y] = [1, 2];
+[x, y] = [y, x];    // Change order
+[x, y].forEach(e => console.log(e));
+console.log("\n");
+
+[x, ...y] = [1, 2, 3, 4];       // x = 1, y = [2, 3, 4]
+y.forEach(e => console.log(e)); 
+console.log("And other methods...");
+console.log("\n");

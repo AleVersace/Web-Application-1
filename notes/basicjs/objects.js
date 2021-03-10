@@ -94,4 +94,48 @@ console.log(counter2());
 console.log(counter());
 
 
+// Closures to emulate objects
+console.log("\nClosures to emulate objects");
 
+function counter3() {
+    let n = 0;
+
+    // return an object with two function-valued properties
+    return {
+        count: function() {
+            n++;
+            return n;
+        },
+        reset: function() {
+            n = 0;
+            return n;
+        }
+    };
+}
+
+let c = counter3(), d = counter3();
+console.log(c.count())
+console.log(d.count())
+console.log(c.reset())
+console.log(c.count())
+console.log(d.count())
+
+
+// Immediately Invoked Function Expressions (IIFE)
+console.log("\nIIFE")
+let num = ( function() {
+    a = 3;
+    console.log(a);
+}) ();      // Immediately called, than the function doesn not exist anymore
+
+
+// Constructor function
+console.log("\nConstructor function");
+function Car(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.isNew = ()=>(year > 2000);
+}
+
+let mycar = new Car("Audi", "A5", 2006);

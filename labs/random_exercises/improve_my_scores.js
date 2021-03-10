@@ -4,7 +4,7 @@
 let scores_original = [18, 20, 23, 19, 30, 27, 24, 24, 23, 24, 18];
 let scores = Array.from(scores_original);
 // Remove 2 lowest scores
-scores.sort();
+scores.sort((a,b) => (a-b));
 scores.shift();
 scores.shift();
 

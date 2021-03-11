@@ -1,15 +1,15 @@
 {
-  "name": "asynchronous_programming",
+  "name": "async_programming",
   "version": "1.0.0",
   "description": "",
-  "main": "asynchronic_programming.js",
+  "main": "courses_scores_together.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "package.json": "^2.0.1",
+    "dayjs": "^1.10.4",
     "sqlite3": "^5.0.2"
   }
 }

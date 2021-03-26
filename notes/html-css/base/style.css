@@ -1,0 +1,19 @@
+body {
+    background-color: honeydew;
+}
+
+.important_highlights {
+    background-color: yellow;
+}
+
+#infolinks {
+    color: navy;
+}
+
+td:hover {
+    color: red;
+}
+
+li {
+    display: block;
+}

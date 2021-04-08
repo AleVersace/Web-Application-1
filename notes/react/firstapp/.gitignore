@@ -1,18 +1,3 @@
-.vscode/
-notes/.vscode/
-notes/basicjs/.vscode/
-
-# Packages
-notes/basicjs/asynchronous_programming/node_modules
-notes/basicjs/asynchronous_programming/package-lock.json
-
-labs/async_programming/node_modules
-labs/async_programming/package-lock.json
-
-
-
-
-# Node React files
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
